@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Id:</label>
+                    <input type="text" class="form-control" name="id" [(ngModel)]="id">
+
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Price:</label>
+                    <input type="text" class="form-control" name="price" [(ngModel)]="price">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Title:</label>
+                    <input type="text" class="form-control" name="title" [(ngModel)]="title">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                    <label for="" class="form-label">Description:</label>
+                    <textarea name="description" [(ngModel)]="description" id="" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Category:</label>
+                    <input type="text" class="form-control" name="category" [(ngModel)]="category">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Rate:</label>
+                    <input type="text" class="form-control" name="rate" [(ngModel)]="rate">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Count:</label>
+                    <input type="text" class="form-control" name="count" [(ngModel)]="count">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                    <button (click)="read()" class="btn btn-primary">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

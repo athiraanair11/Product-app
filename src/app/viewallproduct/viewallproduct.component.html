@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+     <div class="row g-3">
+      <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3-col-xxl-3" *ngFor="let i of product">
+
+        <div class="card" >
+          <img src="{{i.image}}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>ID:{{i.id}}</b></p>
+            <p class="card-text"><b>PRICE:{{i.price}}</b></p>
+            <h5 class="card-title">{{i.title}}</h5>
+            <p class="card-text">{{i.description}}</p>
+            <p class="card-text"><b>CATEGORY:{{i.category}}</b></p>
+            <p class="card-text">RATE:{{i.rating.rate}}</p>
+            <p class="card-text">COUNT:{{i.rating.count}}</p>
+            
+            <a href="#" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+
+      </div>
+     </div>
+
+
+        </div>
+    </div>
+</div>
